@@ -1,6 +1,6 @@
 import React from 'react';
 
-const apiBaseUrl = "https://estacionamento-api.onrender.com";
+const apiBaseUrl = "https://estacionamento-api-u7gr.onrender.com";
 
 function authHeaders(token) {
   return token ? { "Authorization": "Bearer " + token } : {};
